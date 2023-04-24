@@ -108,3 +108,35 @@ body {
 .btn:hover {
   background-color: rgb(42, 42, 42);
 }
+
+/* Main Body Section */
+.container {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+h5 {
+  font-family: "Staatliches", cursive;
+  font-size: 25px;
+  padding-bottom: 30px;
+  letter-spacing: 6px;
+}
+
+.container p {
+  font-size: 140px;
+  font-family: "Castoro Titling", cursive;
+}
+
+.container p span {
+  font-style: italic;
+  font-family: "Dancing Script", cursive;
+}
+
+.consultbtn .btn {
+  width: 340px;
+  height: 57px;
+}
